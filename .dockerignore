@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+
+# Elixir build artifacts
+_build/
+deps/
+*.ez
+
+# Generated on crash by the VM
+erl_crash.dump
+
+# Static artifacts
+priv/static/
+
+# Environment variables (secrets)
+.env
+.env.local
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+cover/
+doc/
+
+# Node (if you add frontend later)
+node_modules/
+npm-debug.log
