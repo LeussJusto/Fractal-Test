@@ -1,7 +1,7 @@
 defmodule Fractal.Cache.Adapters.Valkey do
   @behaviour Fractal.Core.Behaviors.CacheAdapterBehaviour
   @moduledoc """
-  Adapter para cache con Valkey/Redis.
+  Funciones de cache
   """
   @default_expiry 60
 

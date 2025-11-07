@@ -1,6 +1,6 @@
 defmodule Fractal.Core.Behaviors.CourseServiceBehaviour do
   @moduledoc """
-  Behaviour para el servicio de cursos.
+  Behaviour para  servicio de cursos.
   """
   @callback create_course(map()) :: {:ok, any()} | {:error, any()}
   @callback get_course(binary()) :: any() | nil

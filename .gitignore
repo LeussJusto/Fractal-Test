@@ -29,5 +29,3 @@ fractal-*.tar
 .env
 .env.local
 .env.*.local
-
-GRAPHQL_TESTING_GUIDE.md
